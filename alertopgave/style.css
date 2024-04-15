@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fabb0d;
+    color: #1f1e1e;
+    text-decoration: none;
+    border-radius: 5px;
+  }
