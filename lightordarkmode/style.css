@@ -1,0 +1,33 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sætter højden til 100% af viewport-højden for at centrere indholdet vertikalt */
+    margin: 0; /* Fjerner margener for at centrere indholdet præcist */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+  }
+  
+  
+  #mode-indicator {
+    text-align: center;
+  }
+
+ 
+
+body.light {
+    background-color: #ffffff; 
+    color: #000000; 
+  }
+  
+  body.dark {
+    background-color: #222222; 
+    color: #ffffff; 
+  }
+ 
+  /* Icons */
+  .fa-moon, .fa-sun {
+    cursor: pointer;
+  }

@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#image{
+    height: 500px;
+    width: 500px;
+    cursor: pointer;
+}
+
+
+#heart{
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+
